@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎬 MoviesNest
 
-## Getting Started
+**MoviesNest** is a modern, responsive web application that lets users explore, search, and discover the latest and top-rated movies with rich detail pages including trailers, cast, genres, and more.
 
-First, run the development server:
+Built with **Next.js 13 App Router**, **Tailwind CSS**, and **TMDb API**, MoviesNest provides a seamless movie-browsing experience with server-side rendering (SSR), incremental static regeneration (ISR), and client-side interactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Home Page**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  - Random hero movie
+  - Trending slider
+  - Top-rated movies grid
 
-## Learn More
+- **Explore Page**:
 
-To learn more about Next.js, take a look at the following resources:
+  - Search for movies
+  - Paginated results
+  - Real-time filtering
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Genre Page**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  - Sidebar with genre list
+  - Click to filter movies by genre
+  - Paginated genre movies
 
-## Deploy on Vercel
+- **Movie Details Page**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Poster, title, overview, release date, rating, genres
+  - Top cast with horizontal scrollbar and scroll buttons
+  - Embedded YouTube trailer if available
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Dark Mode Support**:
+
+  - Theme toggle (light/dark)
+  - Persistent user preference
+
+- **Responsive Design**:
+  - Fully optimized for all screen sizes
+  - Hamburger menu for mobile navigation
+
+---
+
+## Tech Stack
+
+- **Frontend**:
+
+  - [Next.js 13+ App Router](https://nextjs.org/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [React Icons](https://react-icons.github.io/react-icons/)
+
+- **API**:
+
+  - [TMDb (The Movie Database) API](https://www.themoviedb.org/documentation/api)
+
+- **Utilities**:
+  - Environment variables for secure API key handling
+  - Custom hooks and helpers for data fetching
+
+---
+
+## Live Demo
+
+https://movies-app-green-six.vercel.app/
